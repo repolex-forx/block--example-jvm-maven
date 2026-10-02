@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "example-jvm-maven",
+  "versions": [
+    {
+      "commit": "c81186ee2ed932998686b0fb17a45c8a2b9481c9",
+      "tag": "main",
+      "parsed_at": "2026-10-02T11:26:44.351927+00:00"
+    }
+  ]
+}
