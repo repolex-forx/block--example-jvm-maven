@@ -137,7 +137,9 @@
           "githubRepo": "jdk",
           "source": "stdlib:java"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/c81186ee2ed932998686b0fb17a45c8a2b9481c9/chunk-001.nq.gz",
+      "dep": "dep/c81186ee2ed932998686b0fb17a45c8a2b9481c9.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

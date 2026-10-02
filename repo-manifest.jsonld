@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/example-jvm-maven/commit/c81186ee2ed932998686b0fb17a45c8a2b9481c9",
       "git:hexsha": "c81186ee2ed932998686b0fb17a45c8a2b9481c9",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-02T11:26:44.351476+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/example-jvm-maven/commit/ee20a3656f52f92e4713841d32966c5f42d8ecae",
