@@ -47,6 +47,96 @@
       ],
       "ast": [
         "aggregate/ast/c81186ee2ed932998686b0fb17a45c8a2b9481c9/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c81186ee2ed932998686b0fb17a45c8a2b9481c9.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "org.jetbrains.kotlin:kotlin-stdlib",
+          "ecosystem": "MAVEN",
+          "version": "2.3.20",
+          "githubOrg": "JetBrains",
+          "githubRepo": "kotlin",
+          "githubCommit": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+          "githubTag": "v2.3.20",
+          "githubUrl": "https://github.com/JetBrains/kotlin",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.assertj:assertj-core",
+          "ecosystem": "MAVEN",
+          "version": "3.27.7",
+          "githubOrg": "assertj",
+          "githubRepo": "assertj",
+          "githubUrl": "https://github.com/assertj/assertj/assertj-parent/assertj-core",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.jetbrains.kotlin:kotlin-test",
+          "ecosystem": "MAVEN",
+          "version": "2.3.20",
+          "githubOrg": "JetBrains",
+          "githubRepo": "kotlin",
+          "githubCommit": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+          "githubTag": "v2.3.20",
+          "githubUrl": "https://github.com/JetBrains/kotlin",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.jetbrains.kotlin:kotlin-test-junit5",
+          "ecosystem": "MAVEN",
+          "version": "2.3.20",
+          "githubOrg": "JetBrains",
+          "githubRepo": "kotlin",
+          "githubCommit": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+          "githubTag": "v2.3.20",
+          "githubUrl": "https://github.com/JetBrains/kotlin",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.junit:junit-bom",
+          "ecosystem": "MAVEN",
+          "version": "6.0.3",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit-framework",
+          "githubUrl": "https://github.com/junit-team/junit-framework",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.junit.jupiter:junit-jupiter-api",
+          "ecosystem": "MAVEN",
+          "version": "6.1.3",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit-framework",
+          "githubUrl": "https://github.com/junit-team/junit-framework",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "org.junit.jupiter:junit-jupiter",
+          "ecosystem": "MAVEN",
+          "version": "6.1.3",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit-framework",
+          "githubUrl": "https://github.com/junit-team/junit-framework",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "io.gitlab.arturbosch.detekt:detekt-formatting",
+          "ecosystem": "MAVEN",
+          "version": "1.23.8",
+          "githubOrg": "detekt",
+          "githubRepo": "detekt",
+          "githubCommit": "046263730eb5368cb344489ac36543294e8e87bd",
+          "githubTag": "v1.23.8",
+          "githubUrl": "https://github.com/detekt/detekt",
+          "source": "build_file:pom.xml"
+        },
+        {
+          "packageName": "java.base:java.io",
+          "ecosystem": "MAVEN",
+          "githubOrg": "openjdk",
+          "githubRepo": "jdk",
+          "source": "stdlib:java"
+        }
       ]
     }
   ],

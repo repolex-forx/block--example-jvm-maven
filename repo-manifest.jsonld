@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/example-jvm-maven/commit/c81186ee2ed932998686b0fb17a45c8a2b9481c9",
       "git:hexsha": "c81186ee2ed932998686b0fb17a45c8a2b9481c9",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "main"
     },
     {

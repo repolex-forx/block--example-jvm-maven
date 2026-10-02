@@ -48,10 +48,62 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c81186ee2ed932998686b0fb17a45c8a2b9481c9/chunk-001.nq.gz",
       "repolex:graphFileSize": 522847
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/c81186ee2ed932998686b0fb17a45c8a2b9481c9.nq.gz",
+      "repolex:graphFileSize": 13878
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-02T11:22:01.298389+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/JetBrains/kotlin",
+      "repolex:packageName": "org.jetbrains.kotlin:kotlin-stdlib",
+      "git:hexsha": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+      "git:tagName": "v2.3.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/assertj/assertj",
+      "repolex:packageName": "org.assertj:assertj-core"
+    },
+    {
+      "@id": "https://repolex.ai/r/JetBrains/kotlin",
+      "repolex:packageName": "org.jetbrains.kotlin:kotlin-test",
+      "git:hexsha": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+      "git:tagName": "v2.3.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/JetBrains/kotlin",
+      "repolex:packageName": "org.jetbrains.kotlin:kotlin-test-junit5",
+      "git:hexsha": "d57eb4a26ed01ab03cf195da686c8047032ff16f",
+      "git:tagName": "v2.3.20"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit-framework",
+      "repolex:packageName": "org.junit:junit-bom"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit-framework",
+      "repolex:packageName": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "@id": "https://repolex.ai/r/junit-team/junit-framework",
+      "repolex:packageName": "org.junit.jupiter:junit-jupiter"
+    },
+    {
+      "@id": "https://repolex.ai/r/detekt/detekt",
+      "repolex:packageName": "io.gitlab.arturbosch.detekt:detekt-formatting",
+      "git:hexsha": "046263730eb5368cb344489ac36543294e8e87bd",
+      "git:tagName": "v1.23.8"
+    },
+    {
+      "@id": "https://repolex.ai/r/openjdk/jdk",
+      "repolex:packageName": "java.base:java.io"
+    }
+  ]
 }
